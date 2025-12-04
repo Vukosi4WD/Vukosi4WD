@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progress Bar</title>
+    <link rel="stylesheet" href="./progressBar.css">
+</head>
+<body>
+    <div id="form-container">
+        <form id="form">
+            <h1>Sign up to our newsletter!</h1>
+
+
+            <div id="progress-bar-container" class="progress-bar-container">
+        <div id="progressBar" class="progressBar">
+            <div class="progress" id="progress"></div>
+            <div class="step active">1</div>
+            <div class="step">2</div>
+            <div class="step">3</div>
+            <div class="step">4</div>
+        </div>
+
+
+            <fieldset>
+                <label for="full-name">Full Names:</label>
+                <input id="full-name" name="names" required>
+            </fieldset>
+
+
+            <fieldset>
+                <label for="email">Email:</label>
+            <input id="full-name" name="email" required>
+            </fieldset>
+
+            <fieldset>
+                <label for="password">Create password:</label>
+                <input type="password" name="password" pattern="[a-z0-5]{8,}" id="password">
+            </fieldset>
+
+
+            <fieldset>
+                <p class="radio-info">Choose your newsletter frequency:</p>
+                <label for="newsletter"></label>
+                <input id="newsletter" name="newsletter" type="radio">Weekly
+            <label for="newsletter1"></label>
+            <input id="newsletter1" name="newsletter" type="radio">Monthly
+            </fieldset>
+
+            <button class="btn" type="submit" id="next">Submit</button>
+
+
+        </form>
+    </div>
+
+        
+    </div>
+    <script src="./progressBar.js"></script>
+</body>
+</html>
