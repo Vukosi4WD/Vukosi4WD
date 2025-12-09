@@ -7,6 +7,5 @@
 - ⚡ Fun fact: I love cats!
 
 <!---
-Vukosi4WD/Vukosi4WD is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
+Just practicing coding, nothing hectic.
 --->
