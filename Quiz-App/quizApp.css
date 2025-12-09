@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f3f3f3;
+    font-family: Arial, sans-serif;
+}
+
+/* The card itself */
+#questionCard {
+    width: 350px;
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    text-align: center;
+}
+
+/* Question text */
+#question {
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Options container */
+#answers ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px 0;
+    text-align: center;
+}
+
+/* Each option */
+#answers li {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+}
+
+/* Submit button full width */
+#submitBtn {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background-color: blueviolet;
+    color: antiquewhite;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#submitBtn:hover {
+    opacity: 0.85;
+}
