@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="./tipCalc.css">
+</head>
+<body>
+
+    <div id="displays">
+        <h1 id="error-display">Tip Calculator</h1>
+        <p id="screen">Bill Total: </p>
+        <p id="display-tpps">Tip per person: </p>
+        <p id="split-amount">Total per Person: </p>
+    </div>
+
+    <div id="input">
+
+     <div id="total-table">
+        <label for="total">Total Amount:</label>
+        <input type="number" min="20" id="total" name="bill" required>
+     </div>
+
+     <div id="people">
+        <label for="total-guests">Number of People:</label>
+        <input type="number" id="total-guests" min="1" required>
+     </div>
+
+     <p id="gratuity-display">Gratuity 20%</p>
+    </div>
+        
+
+    <div id="buttons">
+        <div id="tip-pps">
+          <button type="button" id="splitBtn">Split</button>
+        </div>
+
+        <div id="percentage">
+          <button type="submit" id="submit">Calculate</button>
+       </div>
+    
+
+    </div>
+    
+
+    <script src="./tipCalc.js"></script>
+</body>
+</html>
